@@ -1,0 +1,13 @@
+Re-Design The Perfect Wedding Website - 
+
+Design Planning -
+ - Slider(banner) -> ( With Content )
+ - About Us
+ - Extra Facilities ( Our Services, WHAT WE CAN DO ) -> (Link's redirect to their services)
+ - Counter - https://wpocean.com/html/tf/loveme/index-2.html
+ - Feedback
+
+
+
+Links - 
+About Us Selction - https://wpocean.com/html/tf/loveme/index-2.html
