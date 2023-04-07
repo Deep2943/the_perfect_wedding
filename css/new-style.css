@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Black.ttf") format("truetype");
+  src: url("/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  src: url("/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  src: url("/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  src: url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  src: url("/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland');
+body {font-family: "Poppins" !important;}
+:root {
+	--primary-color: #b4245d;
+	--secondary-color: #e72e77;
+}
+
+
+/* width */
+::-webkit-scrollbar {width: 4px;}  
+/* Track */
+  ::-webkit-scrollbar-track {background: #f1f1f1;}  
+/* Handle */
+::-webkit-scrollbar-thumb {background: #888;}  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {background: #555;}
+
+
+/* Header  */
+.top-header{padding: 5px 0;background-color: var(--primary-color);}
+.top-header .top-header-text{font-family: "Mr De Haviland";color: #fff;margin-bottom: 0;text-align: center;font-size: 36px;letter-spacing: 1px;}
+.bottom-header{background-color: var(--secondary-color);}
+/* .bottom-header-content.transparent.scroll-light .logo .bottom-header-text{display: none;} */
+.bottom-header .bottom-header-text{font-family: "Mr De Haviland";color: #fff;margin-bottom: 0;text-align: center;font-size: 36px;letter-spacing: 1px;}
+.bottom-header.transparent.scroll-light .bottom-header-content{display: flex;justify-content: center;align-items: center;}

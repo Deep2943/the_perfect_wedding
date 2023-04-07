@@ -163,9 +163,7 @@ header .info strong {
 header.header-bg {
 	background: rgba(0, 0, 0, 0.5);
 }
-header.transparent {
-	background: rgba(0, 0, 0, 0.0);
-}
+
 header:not(.smaller):not(.header-mobile).header-light.transparent {
 	background: rgba(255, 255, 255, 0.0);
 }
@@ -187,7 +185,7 @@ header.autoshow.scrollOn {
 header.autoshow.scrollOff {
 	top: -120px;
 }
-header div#logo {
+/* header div#logo {
 	display: inline-block;
 	height: 100%;
 	float: left;
@@ -200,20 +198,20 @@ header div#logo {
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-}
-header div#logo .logo-2 {
+} */
+/* header div#logo .logo-2 {
 	display: none;
-}
+} */
 header div#logo .logo-scroll {
 	display: none;
 }
-header div#logo h2 {
+/* header div#logo h2 {
 	font-family: "Mr De Haviland";
 	font-size: 36px;
 	color: #fff;
 	margin-top: 16px;
 	margin-bottom: 0;
-}
+} */
 header div#logo a {
 	font-style: none;
 	border: none;
@@ -3660,6 +3658,7 @@ de_tab .de_nav li span, .feature-box-small-icon i, a.btn-line:after, .de_count, 
 	-webkit-transition: .8s;
 	transition: .8s;
 	outline: none;
+	top: 53px;
 }
 a.btn-fx:after, a.btn-fx:hover:after, a.btn-fx:before, a.btn-fx:hover:before, #mainmenu li, #mainmenu li ul, .widget-post li .post-date {
 	-o-transition: .2s ease;
@@ -5078,7 +5077,7 @@ i.btn-action-hide {
 .wow {
 	visibility: hidden;
 }
-#back-to-top {
+/* #back-to-top {
 	position: fixed;
 	bottom: -40px;
 	right: 40px;
@@ -5100,7 +5099,7 @@ i.btn-action-hide {
 	background: #111;
 }
 #back-to-top.show {
-	bottom: 40px;
+	bottom: 40px !important;
 	opacity: 1;
 }
 #back-to-top.hide {
@@ -5113,7 +5112,7 @@ i.btn-action-hide {
 	color: #fff;
 	position: relative;
 	margin: 5px;
-}
+} */
 
 /* mouse scroll icon begin */
 
@@ -6548,10 +6547,10 @@ a, img {
 	/* -------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
-	header div#logo h2 {
+	/* header div#logo h2 {
 	font-size: 24px;
 	margin-top: 24px;
-	}
+	} */
 	#subheader h1 {
 		font-size: 24px;
 	}
@@ -6626,10 +6625,10 @@ a, img {
 		padding-left: 30px;
 		padding-right: 30px;
 	}
-	header div#logo img {
+	/* header div#logo img {
 		max-width: 200px;
 		height: auto;
-	}
+	} */
 }
 
 /* -------------------------------------------------- 
@@ -6648,10 +6647,10 @@ a, img {
 	.text-item i {
 		font-size: 24px;
 	}
-	header div#logo img {
+	/* header div#logo img {
 		max-width: 200px;
 		height: auto;
-	}
+	} */
 	.pf_full_width.gallery_border .item {
 		width: 100% !important;
 	}

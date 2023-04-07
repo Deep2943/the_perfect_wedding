@@ -40,10 +40,10 @@ include("header.php");
 
                 <div id="custom-owl-slider" class="owl-slide" data-scroll-speed="2">
                     <div class="item">
-                        <img src="images/slider/10.jpg" alt="">
+                        <img src="images/slider/6.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img src="images/slider/6.jpg" alt="">
+                        <img src="images/slider/10.jpg" alt="">
                     </div>
                     <div class="item">
                         <img src="images/slider/9.jpg" alt="">

@@ -1,6 +1,22 @@
 Re-Design The Perfect Wedding Website - 
 
-Design Planning -
+Header
+--------
+1.Home
+2.About Us
+3.Services
+		1.Venues
+		2.Decoration
+		3.Catering
+		4.Dj/Sound
+4.Gallery
+5.Profile
+6.Contact Us
+7.Login - Login Screen (For User)
+		- Register
+------------------------
+Design Planning 
+------------------------
  - Slider(banner) -> ( With Content )
  - About Us
  - Extra Facilities ( Our Services, WHAT WE CAN DO ) -> (Link's redirect to their services)
@@ -10,4 +26,36 @@ Design Planning -
 
 
 Links - 
+----------------
+https://www.wedmegood.com/
+https://dribbble.com/shots/5436073-Brides-Wedding-Landing-Page/attachments/1177443?mode=media
 About Us Selction - https://wpocean.com/html/tf/loveme/index-2.html
+
+
+Content
+-----------------------------
+
+Slider Content 
+----------------
+Slide 1: Let us help you create your dream wedding. Our team of wedding experts has years of experience and is passionate about bringing your vision to life.
+
+Slide 2: From the perfect venue to the perfect menu, we've got you covered. We work closely with each of our clients to create a personalized plan that meets their specific needs and budget.
+
+Slide 3: Our comprehensive online resource center is full of tips, advice, and inspiration to help you plan your perfect wedding. Check out our blog for articles on everything from choosing your wedding colors to selecting the perfect floral arrangements.
+
+Slide 4: We understand that wedding planning can be overwhelming, which is why we offer a range of services to make the process easier for you. From full wedding planning to day-of coordination, we'll help you every step of the way.
+
+Slide 5: Your wedding day should be a reflection of your unique love story. Let us help you create a wedding that's as special and unique as you are.
+
+
+About us 
+------------------
+Welcome to The Perfect Wedding, where we believe that every couple deserves the wedding of their dreams. Our website is dedicated to providing you with everything you need to plan the perfect wedding, from inspiration to execution.
+
+Our team of wedding experts has years of experience in the wedding industry and is passionate about helping couples create their perfect day. We understand that every couple is unique, and we work closely with each of our clients to create a personalized plan that meets their specific needs and budget.
+
+Whether you're planning a grand wedding with hundreds of guests or an intimate ceremony with just a few close friends and family members, we've got you covered. From choosing the perfect venue and selecting the right vendors to designing your dream wedding dress and creating the perfect menu, we'll help you every step of the way.
+
+We also know that wedding planning can be overwhelming, which is why we've created a comprehensive online resource center that's full of tips, advice, and inspiration. Our blog features articles on everything from choosing your wedding colors to selecting the perfect floral arrangements, and our vendor directory makes it easy to find the best wedding professionals in your area.
+
+At The Perfect Wedding, we believe that every couple deserves a wedding that's as unique and special as they are. Let us help you create the wedding of your dreams. Contact us today to learn more about our services and how we can help you plan the perfect wedding.

@@ -382,7 +382,7 @@
 			singleItem: true,
 			navigation: false,
 			pagination: false,
-			autoPlay: true,
+			autoPlay: false,
 			mouseDrag: false,
 			touchDrag: true,
 			transitionStyle: "fadeUp"

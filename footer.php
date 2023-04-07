@@ -36,7 +36,7 @@
         </footer>
         <!-- footer close -->
 
-        <a href="#" id="back-to-top"></a>
+        <?php /* <a href="#" id="back-to-top"></a> */ ?>
         <div id="preloader">
             <div class="preloader1"></div>
         </div>
