@@ -42,24 +42,22 @@ require("connection.php");
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
-<?php
-$nav_links = array(
-  "index.php" => "Home",
-  "about.php" => "About Us",
-  "services.php" => "Our Services",
-  "contact.php" => "Contact Us"
-);
-?>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <div class="nav-contact">
+        <div class="container d-flex justify-content-between align-items-center  p-1">
+            <a href="javascript:void(0)">Demo1</a>
+            <a href="javascript:void(0)">Demo2</a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/the_perfect_wedding">Home</a>
