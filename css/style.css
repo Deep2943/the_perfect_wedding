@@ -402,10 +402,12 @@ header.de_header_2.smaller .info {
 /* ================================================== */
 
 #mainmenu {
-	float: right;
+	/* float: right; */
 	font-size: 13px;
-	font-weight: 600;
-	margin-right: 20px;
+	/* font-weight: 600; */
+	/* margin-right: 20px; */
+	margin: 0;
+	padding: 0;
 }
 #mainmenu ul {
 	float: right;
@@ -416,17 +418,18 @@ header.de_header_2.smaller .info {
 #mainmenu li {
 	margin: 0px 0px;
 	padding: 0px 0px;
-	float: left;
+	/* float: left; */
 	display: inline;
 	list-style: none;
 	position: relative;
 }
 #mainmenu a {
 	display: inline-block;
-	padding: 20px 0px 20px 20px;
-	line-height: 35px;
+	padding: 10px;
+	/* line-height: 35px; */
 	text-decoration: none;
-	color: #fff;
+	color: black;
+	font-weight: 600;
 	text-align: center;
 	outline: none;
 }

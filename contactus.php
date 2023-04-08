@@ -78,7 +78,7 @@ include("header.php");
 					</div>
 						</div>
 						
-						<div class="col-md-3 col-md-offset-1">
+						<div class="col-md-3 col-md-offset-1" data-aos="fade-up">
 							
                             <h6 class="id-color">Address</h6>
                             <h4>Sarva Mangalam Residency,<br>Nr. fire station,<br> 
