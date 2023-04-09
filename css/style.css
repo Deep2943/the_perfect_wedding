@@ -1344,12 +1344,12 @@ a {
 a:hover {
 	color: #fff;
 }
-.de_light a {
+/* .de_light a {
 	color: #888;
 }
 .de_light a:hover {
 	color: #555;
-}
+} */
 .btn-line, a.btn-line {
 	border: solid 1px #222;
 	color: #fff;

@@ -3,3 +3,5 @@ put jquery validation
 
 Admin - sumandeep10@gmail.com
 		sd@2129
+User - suman@gmail.com
+		admin

@@ -10,8 +10,8 @@
 @import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland');
 body {font-family: "Poppins" !important;}
 :root {
-	--primary-color: #b4245d;
-	--secondary-color: #e72e77;
+	--primary-color: #e72e77;
+	--secondary-color: #b4245d;
 }
 
 
@@ -26,9 +26,29 @@ body {font-family: "Poppins" !important;}
 
 
 /* Header  */
-.nav-contact{background-color: var(--secondary-color) !important;}
+.nav-contact{background-color: var(--primary-color) !important;padding: 0.15rem 0;}
 .top-header .top-header-text{font-family: "Mr De Haviland";color: #fff;margin-bottom: 0;text-align: center;font-size: 36px;letter-spacing: 1px;}
 .bottom-header{background-color: #eaecf0;}
+.nav-item .nav-link{padding: 0.5rem 13px !important;font-size: 16px;font-weight: 500;}
 /* .bottom-header-content.transparent.scroll-light .logo .bottom-header-text{display: none;} */
-.bottom-header .bottom-header-text{font-family: "Mr De Haviland";color: #fff;margin-bottom: 0;text-align: center;font-size: 36px;letter-spacing: 1px;}
+.bottom-header-text{font-family: "Mr De Haviland";color: var(--primary-color);margin-bottom: 0;text-align: center;font-size: 36px;letter-spacing: 2px;}
 .bottom-header .bottom-header-content{display: flex;justify-content: center;align-items: center;height: 100%;}
+.top-icon{width: 30px;height: 30px;border-radius: 50%;background-color: #fff;display: flex !important;align-items: center;font-size: 14px;justify-content: center;color: var(--primary-color);}
+.icon-text{font-size: 13px;font-weight: 300;color: #ffffff !important;margin-left: 8px;position: relative;}
+.icon-text::after{bottom: 0;content: "";display: block;height: 2px;left: 50%;position: absolute;background: var(--secondary-color);transition: width 0.3s ease 0s, left 0.3s ease 0s;width: 0;}
+.icon-text:hover:after {width: 100%;left: 0;}
+.login-out-btn{font-weight:500;font-size: 13px;padding: 7px 20px;background-color: var(--primary-color);border-radius: 7px;color: white;display: flex;align-items: center;margin-left: 10px;}
+.login-out-btn:hover{background-color: var(--secondary-color);}
+.login-out-icon{margin-right: 7px;}
+.nav-item{display: flex;align-items: center;}
+.nav-link{position: relative;display: inline-block;perspective: perspective(1px) translateZ(0);overflow: hidden;color: black;}
+.nav-link::before{content: "";position: absolute;z-index: 11111;
+    left: 0;right: 0;bottom: 0;background: var(--primary-color);
+    height: 3px;transform: translateY(4px);transition-property: transform;transition-duration: 0.3s;transition-timing-function: ease-out;
+}
+.nav-link:hover{color: var(--primary-color);}
+.nav-link.active{color: var(--primary-color) !important;}
+.nav-link:hover:before,.nav-link.active:before{transform: translateY(0) !important;}  
+.dropdown-menu{border: none;box-shadow: 0 2px 15px rgba(0,0,0,0.3);padding: 0;border-radius: 2px;}
+.header-dropdown .dropdown-item{padding: 8px 15px;}
+.header-dropdown .dropdown-item:hover{background-color: var(--primary-color);color: #ffffff;}
