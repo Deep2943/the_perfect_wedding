@@ -224,9 +224,9 @@ header div#logo h2 span {
 	font-family: "Allura";
 	margin: 0 10px 0 10px;
 }
-header nav {
+/* header nav {
 	float: right;
-}
+} */
 header nav a {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -625,7 +625,7 @@ header.header-mobile.header-light #menu-btn {
 /* ================================================== */
 
 section {
-	padding: 80px 0 80px 0;
+	padding: 48px 0 48px 0;
 	position: relative;
 }
 section {
@@ -3828,10 +3828,10 @@ video, object {
 
 /* ================================================== */
 
-.container-fluid {
+/* .container-fluid {
 	padding: 0px;
 	margin: 0px;
-}
+} */
 .btn-primary {
 	text-shadow: none;
 	border: none !important;
@@ -6487,7 +6487,7 @@ a, img {
 	.de_tab.tab_steps .de_nav li .v-border {
 		border: none;
 	}
-	.container .col-md-3 {
+	/* .container .col-md-3 {
 		margin-bottom: 30px;
 	}
 	.container .col-md-4 {
@@ -6516,7 +6516,7 @@ a, img {
 	}
 	.container .col-md-12 {
 		margin-bottom: 30px;
-	}
+	} */
 	.hidden-phone {
 		display: none;
 	}
@@ -6568,10 +6568,10 @@ a, img {
 	.countdown-amount {
 		font-size: 36px;
 	}
-	.container {
+	/* .container {
 		padding-left: 30px;
 		padding-right: 30px;
-	}
+	} */
 	#filters li.pull-right {
 		float: none !important;
 	}
@@ -6624,10 +6624,10 @@ a, img {
 	/* -------------------------------------------------- */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.container {
+	/* .container {
 		padding-left: 30px;
 		padding-right: 30px;
-	}
+	} */
 	/* header div#logo img {
 		max-width: 200px;
 		height: auto;

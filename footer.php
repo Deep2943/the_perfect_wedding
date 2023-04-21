@@ -52,6 +52,7 @@ AOS.init();
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.isotope.min.js"></script>
 <script src="js/easing.js"></script>
+<script src="js/slick.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/jquery.countTo.js"></script>
 <script src="js/validation-rsvp.js"></script>

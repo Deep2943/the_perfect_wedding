@@ -30,24 +30,26 @@ require("connection.php");
     <link rel="stylesheet" href="js/aos/aos.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="css/new-style.css" type="text/css">
+    <link rel="stylesheet" href="css/slick.css" type="text/css">
+    <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
 
     <!-- custom background -->
     <link rel="stylesheet" href="css/bg.css" type="text/css">
 
     <!-- color scheme -->
     <link rel="stylesheet" href="css/color.css" type="text/css" id="colors">
-    <script src="css/bootstrap/js/bootstrap.js"></script>
-    <script src="js/aos/aos.js"></script>
     <script src="css/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/aos/aos.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
 </head>
 
 <body>
     <div class="nav-contact">
         <div class="container d-flex justify-content-between align-items-center p-1">
             <div class="d-flex align-items-center order-2">
-                <i class="fa-solid fa-envelope top-icon"></i><a class="icon-text me-3" href="mailto:demo@gmail.com">demo@gmail.com</a>
+                <i class="fa-solid fa-envelope top-icon"></i><a class="icon-text me-3"
+                    href="mailto:demo@gmail.com">demo@gmail.com</a>
                 <i class="fa-solid fa-phone top-icon"></i><a class="icon-text me-3" href="tel:9898989898">+91 98989
                     89898</a>
                 <i class="fa-solid fa-location-dot top-icon"></i><a class="icon-text" href="">Ahmedabad, India</a>
@@ -55,7 +57,7 @@ require("connection.php");
             <a href="javascript:void(0)"></a>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container">
             <a class="navbar-brand bottom-header-text" href="/the_perfect_wedding">The Perfect Wedding</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"

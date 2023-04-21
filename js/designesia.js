@@ -339,6 +339,13 @@
 			pagination: false,
 			autoPlay: true
 		});
+		// jQuery(".banner-slider").owlCarousel({
+		// 	items: 2,
+		// 	singleItem: true,
+		// 	navigation: false,
+		// 	pagination: false,
+		// 	autoPlay: true
+		// });
 		jQuery(".text-slider").owlCarousel({
 			items: 1,
 			singleItem: true,
