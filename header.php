@@ -29,7 +29,6 @@ require("connection.php");
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="js/aos/aos.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="css/new-style.css" type="text/css">
     <link rel="stylesheet" href="css/slick.css" type="text/css">
     <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
 
@@ -42,6 +41,8 @@ require("connection.php");
     <script src="js/aos/aos.js"></script>
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+
+    <link rel="stylesheet" href="css/new-style.css" type="text/css">
 </head>
 
 <body>

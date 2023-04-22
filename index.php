@@ -15,15 +15,31 @@ include("header.php");
             <div class="slider-content">
                 <div class="row">
                     <div class="col-lg-4 d-flex justify-content-center flex-column">
-                        <h5>Deep</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, aliquid. Officia dicta maiores esse ipsum quos, est veritatis eligendi obcaecati minus ipsam deserunt modi mollitia adipisci veniam neque nesciunt eveniet unde ad quo minima explicabo blanditiis corporis iure doloremque. Beatae!</p>
+                        <div class="nav-slider-content">
+                            <div>
+                                <h5 class="slider-heading">Celebrate Your Love with <span class="primary-color">The Perfect Wedding</span></h5>
+                                <p class="mb-0 slider-content-p">Welcome to The Perfect Wedding, your ultimate guide to planning the most unforgettable and magical wedding day.We understand that your wedding day is one of the most important events of your life, and we are here to help you make it absolutely perfect. </p>
+                            </div>
+                            <div>
+                                <h5 class="slider-heading">Creating Your Dream Wedding with Our Expert Team</h5>
+                                <p class="mb-0 slider-content-p">Let us help you create your dream wedding. Our team of wedding experts has years of experience and is passionate about bringing your vision to life. From the perfect venue to the perfect menu, we've got you covered.</p>
+                            </div>
+                            <div>
+                                <h5 class="slider-heading">Stress-Free Wedding Planning: Our Services to Make Your Dream Day a Reality</h5>
+                                <p class="mb-0 slider-content-p">We understand that wedding planning can be overwhelming, which is why we offer a range of services to make the process easier for you. From full wedding planning to day-of coordination, we'll help you every step of the way.</p>
+                            </div>
+                            <div>
+                                <h5 class="slider-heading">Crafting Your Love Story: Creating a One-of-a-Kind Wedding Experience</h5>
+                                <p class="mb-0 slider-content-p">Your wedding day should be a reflection of your unique love story. Let us help you create a wedding that's as special and unique as you are.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-8">
                         <div class="banner-slider">
-                            <img src="images/s1.jpg" alt="Slider 1" class="img-fluid slider-img">
-                            <img src="images/s1.jpg" alt="Slider 1" class="img-fluid slider-img">
-                            <img src="images/s1.jpg" alt="Slider 1" class="img-fluid slider-img">
-                            <img src="images/s1.jpg" alt="Slider 1" class="img-fluid slider-img">
+                            <img src="images/slider-1.jpg" alt="Slider 1" class="img-fluid slider-img">
+                            <img src="images/slider-2.jpg" alt="Slider 2" class="img-fluid slider-img">
+                            <img src="images/slider-3.jpg" alt="Slider 3" class="img-fluid slider-img">
+                            <img src="images/slider-4.jpg" alt="Slider 4" class="img-fluid slider-img">
                         </div>
 
                     </div>
@@ -276,11 +292,23 @@ include("header.php");
 </div>
 <script>
 $(document).ready(function() {
+    $('.nav-slider-content').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        autoplay:true,
+        autoplaySpeed: 3500,
+        pauseOnHover:false,
+        asNavFor: '.banner-slider',
+    });
     $('.banner-slider').slick({
         dots: false,
-        infinite: false,
-        arrows: false,
+        asNavFor: '.nav-slider-content',
+        infinite: true,
+        arrows: true,
         speed: 300,
+        pauseOnHover:false,
         autoplay: false,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -288,16 +316,16 @@ $(document).ready(function() {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                     infinite: true,
-                    dots: true
+                    dots: false
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 1
                 }
             },
             {
@@ -307,9 +335,6 @@ $(document).ready(function() {
                     slidesToScroll: 1
                 }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
         ]
     });
 })
