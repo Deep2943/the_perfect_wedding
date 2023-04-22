@@ -10,6 +10,7 @@ include("header.php");
 <!-- content begin -->
 <div id="content" class="no-bottom no-top">
 
+    <!-- main banner section  -->
     <section class="main-banner-section">
         <div class="container">
             <div class="slider-content">
@@ -17,20 +18,33 @@ include("header.php");
                     <div class="col-lg-4 d-flex justify-content-center flex-column">
                         <div class="nav-slider-content">
                             <div>
-                                <h5 class="slider-heading">Celebrate Your Love with <span class="primary-color">The Perfect Wedding</span></h5>
-                                <p class="mb-0 slider-content-p">Welcome to The Perfect Wedding, your ultimate guide to planning the most unforgettable and magical wedding day.We understand that your wedding day is one of the most important events of your life, and we are here to help you make it absolutely perfect. </p>
+                                <h5 class="slider-heading">Celebrate Your Love with <span class="primary-color">The
+                                        Perfect Wedding</span></h5>
+                                <p class="mb-0 slider-content-p">Welcome to The Perfect Wedding, your ultimate guide to
+                                    planning the most unforgettable and magical wedding day.We understand that your
+                                    wedding day is one of the most important events of your life, and we are here to
+                                    help you make it absolutely perfect. </p>
                             </div>
                             <div>
                                 <h5 class="slider-heading">Creating Your Dream Wedding with Our Expert Team</h5>
-                                <p class="mb-0 slider-content-p">Let us help you create your dream wedding. Our team of wedding experts has years of experience and is passionate about bringing your vision to life. From the perfect venue to the perfect menu, we've got you covered.</p>
+                                <p class="mb-0 slider-content-p">Let us help you create your dream wedding. Our team of
+                                    wedding experts has years of experience and is passionate about bringing your vision
+                                    to life. From the perfect venue to the perfect menu, we've got you covered.</p>
                             </div>
                             <div>
-                                <h5 class="slider-heading">Stress-Free Wedding Planning: Our Services to Make Your Dream Day a Reality</h5>
-                                <p class="mb-0 slider-content-p">We understand that wedding planning can be overwhelming, which is why we offer a range of services to make the process easier for you. From full wedding planning to day-of coordination, we'll help you every step of the way.</p>
+                                <h5 class="slider-heading">Stress-Free Wedding Planning: Our Services to Make Your Dream
+                                    Day a Reality</h5>
+                                <p class="mb-0 slider-content-p">We understand that wedding planning can be
+                                    overwhelming, which is why we offer a range of services to make the process easier
+                                    for you. From full wedding planning to day-of coordination, we'll help you every
+                                    step of the way.</p>
                             </div>
                             <div>
-                                <h5 class="slider-heading">Crafting Your Love Story: Creating a One-of-a-Kind Wedding Experience</h5>
-                                <p class="mb-0 slider-content-p">Your wedding day should be a reflection of your unique love story. Let us help you create a wedding that's as special and unique as you are.</p>
+                                <h5 class="slider-heading">Crafting Your Love Story: Creating a One-of-a-Kind Wedding
+                                    Experience</h5>
+                                <p class="mb-0 slider-content-p">Your wedding day should be a reflection of your unique
+                                    love story. Let us help you create a wedding that's as special and unique as you
+                                    are.</p>
                             </div>
                         </div>
                     </div>
@@ -96,7 +110,49 @@ include("header.php");
         </div>
     </section> -->
     <!-- section close -->
-    <div class="spacer-double"></div>
+    <!-- <div class="spacer-double"></div> -->
+
+    <!-- about us section  -->
+
+    <section class="about-us-section">
+        <div class="container">
+            <div class="heading-section">
+                <h4>Heading</h4>
+                <div class="heading-icon-sec position-relative">
+                    <img src="images/logo-icon.png" alt="Heading Icon" class="heading-icon">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 position-relative">
+                    <img src="images/shape.png" alt="shape icon" class="shape-img">
+                    <div class="first-image">
+                        <div class="img-cont">
+                            <img src="images/about-us-img.png" alt="About Us Image">
+                        </div>
+                    </div>
+                    <div class="second-image">
+                        <div class="img-cont">
+                            <img src="images/about-us-img.png" alt="About Us Image">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="about-us-heading">Our Mission: Bringing Your Wedding Dreams to Life</h4>
+                    <p class="about-us-content">Welcome to The Perfect Wedding! We are a team of experienced wedding
+                        planners who are passionate about creating unforgettable weddings. We believe that every couple
+                        deserves the wedding of their dreams, and we are here to help make that a reality.</p>
+                    <p class="about-us-content">With years of experience in the wedding industry, we have the knowledge
+                        and expertise to handle every aspect of your wedding, from start to finish.</p>
+                    <p class="about-us-content">Whether you're looking for full-service planning, day-of coordination,
+                        or something in between, we have a package that is tailored to meet your needs. Our goal is to
+                        take the stress out of wedding planning so that you can enjoy every moment of your special day.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     <!-- section begin -->
     <section id="section-quote" aria-label="section-quote-1" class="text-light" data-stellar-background-ratio=".2">
@@ -297,9 +353,9 @@ $(document).ready(function() {
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        autoplay:true,
+        autoplay: true,
         autoplaySpeed: 3500,
-        pauseOnHover:false,
+        pauseOnHover: false,
         asNavFor: '.banner-slider',
     });
     $('.banner-slider').slick({
@@ -308,7 +364,7 @@ $(document).ready(function() {
         infinite: true,
         arrows: true,
         speed: 300,
-        pauseOnHover:false,
+        pauseOnHover: false,
         autoplay: false,
         slidesToShow: 3,
         slidesToScroll: 1,

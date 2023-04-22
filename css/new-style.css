@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Poppins";
-  src: url("/fonts/Poppins/Poppins-Black.ttf") format("truetype");
-  src: url("/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
-  src: url("/fonts/Poppins/Poppins-Light.ttf") format("truetype");
-  src: url("/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
-  src: url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
-  src: url("/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  src: url(/fonts/Poppins/Poppins-Black.ttf) format("truetype");
+  src: url(/fonts/Poppins/Poppins-Bold.ttf) format("truetype");
+  src: url(/fonts/Poppins/Poppins-Light.ttf) format("truetype");
+  src: url(/fonts/Poppins/Poppins-Medium.ttf) format("truetype");
+  src: url(/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+  src: url(/fonts/Poppins/Poppins-SemiBold.ttf) format("truetype");
 }
 @import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland');
 body {font-family: "Poppins" !important;}
@@ -31,7 +31,7 @@ body {font-family: "Poppins" !important;}
 .bottom-header{background-color: #eaecf0;}
 .nav-item .nav-link{padding: 0.5rem 13px !important;font-size: 16px;font-weight: 500;}
 /* .bottom-header-content.transparent.scroll-light .logo .bottom-header-text{display: none;} */
-.bottom-header-text{font-family: "Mr De Haviland";color: var(--primary-color);margin-bottom: 0;text-align: center;font-size: 36px;letter-spacing: 2px;}
+.bottom-header-text{font-family: "Mr De Haviland";color: var(--primary-color);margin-bottom: 0;text-align: center;font-size: 36px;letter-spacing: 2px;position: relative;}
 .bottom-header .bottom-header-content{display: flex;justify-content: center;align-items: center;height: 100%;}
 .top-icon{width: 30px;height: 30px;border-radius: 50%;background-color: #fff;display: flex !important;align-items: center;font-size: 14px;justify-content: center;color: var(--primary-color);}
 .icon-text{font-size: 13px;font-weight: 300;color: #ffffff !important;margin-left: 8px;position: relative;}
@@ -90,7 +90,7 @@ body {font-family: "Poppins" !important;}
 
 .slider-heading{font-size: 26px;font-weight: 600;line-height: 32px;color: var(--secondary-color) !important;margin-bottom: 12px;}
 .primary-color{color: var(--primary-color);}
-.slider-content-p{font-size: 16px;line-height: 26px;color: #b4245ea4;font-weight: 400;}
+.slider-content-p{font-size: 16px;line-height: 26px;color: #b4245ec4;font-weight: 400;}
 section{padding: 72px 0 72px 0;}
 @media (max-width:991px) {
   .slider-content-p{margin-bottom: 12px !important;}
@@ -107,3 +107,31 @@ section{padding: 72px 0 72px 0;}
   .slider-content-p{font-size: 14px;line-height: 21px;}
   section{padding: 27px 0 27px 0;}
 }
+
+.about-us-section{background-color: #ffffff !important;}
+.first-image, .second-image{box-shadow: 0px 2px 16.8px 3.2px rgba(0, 0, 0, 0.08);max-width: 400px;padding: 15px;background-color: #ffffff;}
+.img-cont{padding: 20px;background-color: var(--primary-color);}
+.img-cont img{width: 100%;max-width: 400px;}
+.second-image{position: absolute;top: 0;left: 0;transform: rotate(10deg);transition: all 0.3s ease-in-out;}
+.shape-img{position: absolute;left: -238px;bottom: 0;}
+.about-us-heading{font-size: 26px;font-weight: 600;line-height: 32px;color: var(--secondary-color) !important;margin-top: 0;margin-bottom: 10px;}
+.about-us-content{font-size: 16px;line-height: 26px;color: #b4245ec4;font-weight: 400;margin-bottom: 8px;}
+
+
+.heading-section{display: flex;flex-direction: column;justify-content: center;align-items: center;margin-bottom: 28px;}
+.heading-section .heading-icon-sec::before{    position: absolute;
+  left: -125px;
+  bottom: 25px;
+  width: 100px;
+  height: 1px;
+  color: red;
+  content: "";
+  background-color: red;}
+.heading-section .heading-icon-sec::after{    position: absolute;
+    right: -125px;
+    bottom: 25px;
+    width: 100px;
+    height: 1px;
+    color: red;
+    content: "";
+    background-color: red;}

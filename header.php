@@ -68,7 +68,7 @@ require("connection.php");
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav" id="nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" id="home-link" href="/the_perfect_wedding">Home</a>
+                        <a class="nav-link" aria-current="page" id="home-link" href="/the_perfect_wedding" >Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="aboutus.php" id="about-link">About Us</a>

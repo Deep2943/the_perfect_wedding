@@ -55,10 +55,18 @@
 
 /* ================================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Allura');
+/* @import url('https://fonts.googleapis.com/css?family=Allura'); */
 @import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i');
-
+/* @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i'); */
+@font-face {
+	font-family: "Poppins";
+	src: url(/fonts/Poppins/Poppins-Black.ttf) format("truetype");
+	src: url(/fonts/Poppins/Poppins-Bold.ttf) format("truetype");
+	src: url(/fonts/Poppins/Poppins-Light.ttf) format("truetype");
+	src: url(/fonts/Poppins/Poppins-Medium.ttf) format("truetype");
+	src: url(/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+	src: url(/fonts/Poppins/Poppins-SemiBold.ttf) format("truetype");
+}
 /* ================================================== */
 
 
@@ -67,9 +75,9 @@
 
 /* ================================================== */
 
-@import url("../fonts/font-awesome/css/font-awesome.css");
-@import url("../fonts/elegant_font/HTML_CSS/style.css");
-@import url("../fonts/et-line-font/style.css");
+/* @import url("../fonts/font-awesome/css/font-awesome.css"); */
+/* @import url("../fonts/elegant_font/HTML_CSS/style.css"); */
+/* @import url("../fonts/et-line-font/style.css"); */
 
 /* ================================================== */
 
@@ -86,7 +94,8 @@ html {
 	background: #fff;
 }
 body {
-	font-family: "Merriweather", Helvetica, sans-serif;
+	/* font-family: "Merriweather", Helvetica, sans-serif; */
+	font-family: "Poppins" !important;
 	font-size: 14px;
 	font-weight: 400;
 	background: #555;
