@@ -17,8 +17,8 @@ Header
 ------------------------
 Design Planning 
 ------------------------
- - Slider(banner) -> ( With Content )
- - About Us
+ - Slider(banner) -> ( With Content ) - Done
+ - About Us - Done
  - Extra Facilities ( Our Services, WHAT WE CAN DO ) -> (Link's redirect to their services)
  - Counter - https://wpocean.com/html/tf/loveme/index-2.html
  - Feedback

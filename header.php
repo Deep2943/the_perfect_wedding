@@ -43,6 +43,7 @@ require("connection.php");
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
 
     <link rel="stylesheet" href="css/new-style.css" type="text/css">
+    <script>AOS.init();</script>
 </head>
 
 <body>

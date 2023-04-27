@@ -3,7 +3,6 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- Mirrored from www.themenesia.com/themeforest/lovus/copytemp.html by HTTrack Website Copier/3.x [XR&CO'2010], Tue, 18 Sep 2018 10:43:12 GMT -->
 <?php
 include("header.php");
 ?>
@@ -117,7 +116,7 @@ include("header.php");
     <section class="about-us-section">
         <div class="container">
             <div class="heading-section">
-                <h4>Heading</h4>
+                <h4 class="heading-title">About Us</h4>
                 <div class="heading-icon-sec position-relative">
                     <img src="images/logo-icon.png" alt="Heading Icon" class="heading-icon">
                 </div>
@@ -148,6 +147,7 @@ include("header.php");
                         or something in between, we have a package that is tailored to meet your needs. Our goal is to
                         take the stress out of wedding planning so that you can enjoy every moment of your special day.
                     </p>
+                    <a href="aboutus.php" class="button-52" role="button">Read More</a>
                 </div>
             </div>
 
@@ -156,7 +156,7 @@ include("header.php");
 
     <!-- section begin -->
     <section id="section-quote" aria-label="section-quote-1" class="text-light" data-stellar-background-ratio=".2">
-        <div class="container">
+        <div class="container bg-grey">
             <div class="row wow fadeInUp">
                 <div class="col-md-8 col-md-offset-2">
                     <blockquote class="very-big text-dark wow fadeIn">
@@ -186,7 +186,7 @@ include("header.php");
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="images/misc/6.jpg" alt="" class="img-responsive img-rounded wow fadeInLeft">
+                    <!-- <img src="images/misc/6.jpg" alt="" class="img-responsive img-rounded wow fadeInLeft"> -->
                 </div>
 
                 <div class="col-md-5 col-md-offset-1 pt40 pb40 wow fadeIn" data-wow-delay=".5s">
@@ -210,7 +210,7 @@ include("header.php");
                 </div>
 
                 <div class="col-md-6 col-md-offset-1">
-                    <img src="images/misc/12.jpeg" alt="" class="img-responsive img-rounded wow fadeInRight">
+                    <!-- <img src="images/misc/12.jpeg" alt="" class="img-responsive img-rounded wow fadeInRight"> -->
                 </div>
             </div>
 
@@ -218,7 +218,7 @@ include("header.php");
 
             <div class="row">
                 <div class="col-md-6">
-                    <img src="images/misc/7.jpg" alt="" class="img-responsive img-rounded wow fadeInLeft">
+                    <!-- <img src="images/misc/7.jpg" alt="" class="img-responsive img-rounded wow fadeInLeft"> -->
                 </div>
 
                 <div class="col-md-5 col-md-offset-1 pt40 pb40 wow fadeIn" data-wow-delay=".5s">
@@ -242,7 +242,7 @@ include("header.php");
                 </div>
 
                 <div class="col-md-6 col-md-offset-1">
-                    <img src="images/misc/18.jpg" alt="" class="img-responsive img-rounded wow fadeInRight">
+                    <!-- <img src="images/misc/18.jpg" alt="" class="img-responsive img-rounded wow fadeInRight"> -->
                 </div>
             </div>
         </div>
@@ -346,6 +346,7 @@ include("header.php");
     </section>
     <!-- section close -->
 </div>
+
 <script>
 $(document).ready(function() {
     $('.nav-slider-content').slick({
@@ -354,7 +355,7 @@ $(document).ready(function() {
         arrows: false,
         fade: true,
         autoplay: true,
-        autoplaySpeed: 3500,
+        autoplaySpeed: 6000,
         pauseOnHover: false,
         asNavFor: '.banner-slider',
     });
