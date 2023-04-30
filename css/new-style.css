@@ -138,7 +138,7 @@ section{padding: 65px 0 65px 0;}
 .heading-section .heading-icon-sec::after{position: absolute;right: -125px;bottom: 25px;width: 100px;height: 1px;content: "";background-color: var(--secondary-color);}
 .heading-section .heading-title{font-size: 36px;line-height: 1;margin-top: 0;margin-bottom: 12px;font-weight: 600;color: var(--primary-color);}
 @media (max-width:992px) {
-  .about-us-heading{font-size: 22px;line-height: 26px;margin-bottom: 8px;}
+  .about-us-heading{font-size: 22px;line-height: 26px;}
   .about-us-content{font-size: 14px;line-height: 22px;}
   .first-image, .second-image{max-width: 300px;}
 }
@@ -146,12 +146,98 @@ section{padding: 65px 0 65px 0;}
   .about-us-heading{margin-top: 40px;}
 }
 @media (max-width:576px){
-  .heading-section .heading-title{font-size: 28px;margin-bottom: 8px;}
+  .heading-section .heading-title{font-size: 28px;}
   .heading-icon{width: 56px;}
   .heading-section .heading-icon-sec::after{width: 75px;right: -100px;}
   .heading-section .heading-icon-sec::before{left: -100px;width: 75px;}
   .first-image, .second-image{max-width: 275px;padding: 13px;margin: auto;}
   .second-image{left: 50px;}
   .shape-img{left: -165px;}
- 
+  .about-us-content{text-align: justify;}
+}
+
+.side-bar {
+  background: white;
+  width: 284px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -284px;
+  overflow-y: auto;
+  transition: 0.6s ease;
+  transition-property: left;
+}
+
+.side-bar::-webkit-scrollbar {
+  width: 0px;
+}
+
+.side-bar.active {
+  left: 0;
+}
+
+.side-bar .menu {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.side-bar .menu .item {
+  position: relative;
+  cursor: pointer;
+}
+
+.side-bar .menu .item a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 30px;
+  line-height: 60px;
+}
+
+.side-bar .menu .item a:hover {
+  background: #33363a;
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item i {
+  margin-right: 15px;
+}
+
+.side-bar .menu .item a .dropdown {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item .sub-menu {
+  background: #262627;
+  display: none;
+}
+
+.side-bar .menu .item .sub-menu a {
+  padding-left: 80px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.close-btn {
+  position: absolute;
+  color: black;
+  font-size: 23px;
+  right: 0px;
+  top: 0;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }

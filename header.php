@@ -43,7 +43,9 @@ require("connection.php");
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
 
     <link rel="stylesheet" href="css/new-style.css" type="text/css">
-    <script>AOS.init();</script>
+    <script>
+    AOS.init();
+    </script>
 </head>
 
 <body>
@@ -59,17 +61,44 @@ require("connection.php");
             <a href="javascript:void(0)"></a>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top twt-navbar">
         <div class="container">
-            <a class="navbar-brand bottom-header-text" href="/the_perfect_wedding">The Perfect Wedding</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="bottom-header-text" href="/the_perfect_wedding">The Perfect Wedding</a>
+            <a class="navbar-toggler menu-btn">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            </a>
+            <div class="side-bar">
+                <a class="bottom-header-text-sidebar" href="/the_perfect_wedding">The Perfect Wedding</a>
+                <div class="close-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="menu">
+                    <div class="item"><a href="#"><i class="fas fa-desktop"></i>Dashboard</a></div>
+                    <div class="item">
+                        <a class="sub-btn"><i class="fas fa-table"></i>Tables<i
+                                class="fas fa-angle-right dropdown"></i></a>
+                        <div class="sub-menu">
+                            <a href="#" class="sub-item">Sub Item 01</a>
+                            <a href="#" class="sub-item">Sub Item 02</a>
+                            <a href="#" class="sub-item">Sub Item 03</a>
+                        </div>
+                    </div>
+                    <div class="item"><a href="#"><i class="fas fa-th"></i>Forms</a></div>
+                    <div class="item">
+                        <a class="sub-btn"><i class="fas fa-cogs"></i>Settings<i
+                                class="fas fa-angle-right dropdown"></i></a>
+                        <div class="sub-menu">
+                            <a href="#" class="sub-item">Sub Item 01</a>
+                            <a href="#" class="sub-item">Sub Item 02</a>
+                        </div>
+                    </div>
+                    <div class="item"><a href="#"><i class="fas fa-info-circle"></i>About</a></div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav" id="nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" id="home-link" href="/the_perfect_wedding" >Home</a>
+                        <a class="nav-link" aria-current="page" id="home-link" href="/the_perfect_wedding">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="aboutus.php" id="about-link">About Us</a>
@@ -116,3 +145,22 @@ require("connection.php");
         </div>
     </nav>
     <!-- header close -->
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        //jquery for toggle sub menus
+        $('.sub-btn').click(function() {
+            $(this).next('.sub-menu').slideToggle();
+            $(this).find('.dropdown').toggleClass('rotate');
+        });
+        //jquery for expand and collapse the sidebar
+        $('.menu-btn').click(function() {
+            $('.side-bar').addClass('active');
+            $('.menu-btn').css("visibility", "hidden");
+        });
+        $('.close-btn').click(function() {
+            $('.side-bar').removeClass('active');
+            $('.menu-btn').css("visibility", "visible");
+        });
+    });
+    </script>

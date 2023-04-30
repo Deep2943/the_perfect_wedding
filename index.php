@@ -136,7 +136,7 @@ include("header.php");
 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 m-auto">
                     <h4 class="about-us-heading">Our Mission: Bringing Your Wedding Dreams to Life</h4>
                     <p class="about-us-content">Welcome to The Perfect Wedding! We are a team of experienced wedding
                         planners who are passionate about creating unforgettable weddings. We believe that every couple
@@ -144,8 +144,7 @@ include("header.php");
                     <p class="about-us-content">With years of experience in the wedding industry, we have the knowledge
                         and expertise to handle every aspect of your wedding, from start to finish.</p>
                     <p class="about-us-content">Whether you're looking for full-service planning, day-of coordination,
-                        or something in between, we have a package that is tailored to meet your needs. Our goal is to
-                        take the stress out of wedding planning so that you can enjoy every moment of your special day.
+                        or something in between, we have a package that is tailored to meet your needs.
                     </p>
                     <a href="aboutus.php" class="button-52" role="button">Read More</a>
                 </div>

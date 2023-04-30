@@ -706,9 +706,9 @@ header.header-solid {
 header.header-light {
 	background: rgba(255, 255, 255, .8);
 }
-header.header-mobile {
+/* header.header-mobile {
 	height: 100%;
-}
+} */
 header.header-mobile .logo {
 	display: none;
 }
